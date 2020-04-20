@@ -18,13 +18,11 @@ main()
 
   // generate a triangle
 
-  for (int j = 0; j < 15; j++) {
+  for (int i = 0; i < 15; i++) {
 
-    drawPixel(0, j, COLOR_GREEN);
-
-    drawPixel(j, j, COLOR_GREEN);
-
-    drawPixel(j, 15, COLOR_GREEN);
+    drawPixel(0, i, COLOR_WHITE);
+    drawPixel(i, i, COLOR_WHITE);
+    drawPixel(i, 15, COLOR_WHITE);
 
   }
   
