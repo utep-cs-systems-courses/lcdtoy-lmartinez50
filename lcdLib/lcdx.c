@@ -16,14 +16,12 @@ main()
 
   clearScreen(COLOR_BLUE);
 
-  // generate a triangle
+  //Draw a triangle
 
-  for (int i = 0; i < 15; i++) {
-
+  for (int i = 0; i < 15; i++)
+    {
     drawPixel(0, i, COLOR_WHITE);
-    drawPixel(i, i, COLOR_WHITE);
     drawPixel(i, 15, COLOR_WHITE);
-
-  }
-  
+    drawPixel(i, i, COLOR_WHITE);
+    }
 }
