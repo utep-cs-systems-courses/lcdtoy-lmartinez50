@@ -18,10 +18,18 @@ main()
 
   //Draw a triangle
 
-  for (int i = 0; i < 15; i++)
+  for (int i = 0; i < 40; i++)
     {
     drawPixel(0, i, COLOR_WHITE);
-    drawPixel(i, 15, COLOR_WHITE);
-    drawPixel(i, i, COLOR_WHITE);
+    drawPixel((i/2), 40, COLOR_WHITE);
+    drawPixel((i/2), i, COLOR_WHITE);
     }
+  
+for (int j=0; j<=10; j++) {
+  for(int k=0; k <=10+j; k++){
+    drawPixel((20-k),j, COLOR_WHITE);
+    drawPixel((20+k),j, COLOR_WHITE);
+  }
+ }
+
 }
