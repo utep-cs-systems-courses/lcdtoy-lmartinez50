@@ -20,10 +20,6 @@
 
 int movePlayer = 0;//permission to move paddle
 
-//AbTri triangle = {abTriGetBounds, abTriCheck, 50};
-//AbRect rectangle = {abRectGetBounds, abRectCheck, {10,10}}; //square
-
-
 AbRectOutline fieldOutline = {/* playing field */
   abRectOutlineGetBounds, abRectOutlineCheck,
   {screenWidth/2 - 5, screenHeight/2 - 5}
